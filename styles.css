@@ -11,6 +11,8 @@ html{
     height: 3em;
     padding: 1em;
     background-color: #eee;
+    display: flex;
+    align-items: center;
 }
 
 .icons{
@@ -41,15 +43,15 @@ button{
     background-color: #808080;
     height: 2em;
     margin: 0.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .nav-list-link{
     color: white;
     text-decoration: none;
     margin: 0.5em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 @media screen and (min-width: 600px) {
