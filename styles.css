@@ -26,7 +26,6 @@ button{
 
 .icons:hover{
     cursor: pointer;
-    vertical-align: middle;
 }
 
 .nav-list{
@@ -55,7 +54,7 @@ button{
 }
 
 @media screen and (min-width: 600px) {
-    .icons{
+    .navigation{
         display: none;
     }   
 }
