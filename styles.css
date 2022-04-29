@@ -41,7 +41,7 @@ html{
     cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .icons{
         display: none;
     }   
@@ -51,3 +51,4 @@ html{
     .nav-list-item{
         display: none;
     }
+}
