@@ -22,7 +22,6 @@ html{
     color: white;
     height: 2em;
     text-decoration: none;
-    margin: 0.5em;
 }
 
 .nav-list-item{
@@ -42,7 +41,7 @@ html{
 }
 
 @media screen and (min-width: 600px) {
-    .icons{
+    .navigation{
         display: none;
     }   
 }
