@@ -39,5 +39,15 @@ html{
 
 .icons:hover{
     cursor: pointer;
-    display: none;
 }
+
+@media screen and (max-width: 400px) {
+    .icons{
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list-item{
+        display: none;
+    }
