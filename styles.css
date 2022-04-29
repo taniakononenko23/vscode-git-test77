@@ -3,8 +3,8 @@
 }
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -13,35 +13,47 @@ html{
     background-color: #eee;
 }
 
+.icons{
+    font-size: 2em;
+}
+
+button{
+    padding: 0px;
+    border: none; 
+}
+
+.icons:hover{
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.nav-list{
+    padding: 0px;
+    list-style-type: none;
+}
+
 .navigation{
     width: 20%;
     padding: 0.5em;
 }
 
-.nav-list-link{
-    color: white;
-    height: 2em;
-    text-decoration: none;
-}
-
 .nav-list-item{
     background-color: #808080;
-    list-style-type: none;
+    height: 2em;
     margin: 0.5em;
 }
 
-.icons{
-    font-size: 2em;
-    padding: 0px;
-    border: none;
-}
-
-.icons:hover{
-    cursor: pointer;
+.nav-list-link{
+    color: white;
+    text-decoration: none;
+    margin: 0.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media screen and (min-width: 600px) {
-    .navigation{
+    .icons{
         display: none;
     }   
 }
